@@ -28,7 +28,7 @@ LearnRails::Application.configure do
   config.assets.debug = true
 
   # Connect to email server
-  config.action_mailer.smtp.smtp_settings = {
+  config.action_mailer.smtp_settings = {
     address: "smtp.gmail.com",
     port: 587,
     domain: ENV["DOMAIN_NAME"],
